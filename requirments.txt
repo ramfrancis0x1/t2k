@@ -1,0 +1,25 @@
+# requirements.txt for project simulation (ZoeDepth, ZeroMQ, MAVLink/SITL)
+# Compatible with Python 3.8-3.9, Conda environment
+
+# PyTorch for ZoeDepth (depth estimation)
+torch==1.9.0
+torchvision==0.10.0
+
+# Vision models for ZoeDepth
+timm==0.9.12
+
+# Image/video processing (simulates Pupil Labs Core scene camera)
+opencv-python==4.9.0.80
+
+# ZeroMQ for data streaming
+pyzmq==26.2.0
+
+# Data serialization for ZeroMQ
+msgpack==1.1.0
+
+# MAVLink for drone simulation (SITL)
+dronekit==2.9.2
+mavproxy==1.8.71
+
+# Numerical operations for depth and coordinates
+numpy==1.24.4
