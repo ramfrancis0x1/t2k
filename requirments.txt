@@ -21,5 +21,8 @@ msgpack==1.1.0
 dronekit==2.9.2
 mavproxy==1.8.71
 
+# Input handling
+keyboard==0.13.5
+
 # Numerical operations for depth and coordinates
 numpy==1.24.4
